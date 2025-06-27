@@ -1,0 +1,89 @@
+
+#root {
+  width: 100%;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+h1 {
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+
+.review-form input,.review-form textarea,.review-form select {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #fafafa;
+}
+
+.review-form input:focus,.review-form textarea:focus,.review-form select:focus {
+  border-color: #00aaff;
+  background-color: #fff;
+}
+
+
+.review-form button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #008ecc;
+}
+
+
+.review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.review-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-left: 6px solid #00aaff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  text-align: left;
+}
+
+
+.rating {
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
