@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+
+
 import '../App.css';
 
 function Formrating() {
@@ -42,7 +44,7 @@ function Formrating() {
 
         <input type="text" placeholder="Enter your name" value={username} onChange={(e) => setUsername(e.target.value)}/>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-        <input type="text" placeholder="Enter category (e.g. Electronics, Books)"value={category}onChange={(e) => setCategory(e.target.value)}/>
+        <input type="text" placeholder="Enter category (e.g. Electronics, workers)"value={category}onChange={(e) => setCategory(e.target.value)}/>
         <textarea placeholder="Write your review"value={text}onChange={(e) => setText(e.target.value)}
         ></textarea>
         <select value={rating} onChange={(e) => setRating(e.target.value)}>

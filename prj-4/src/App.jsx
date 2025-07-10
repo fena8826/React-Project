@@ -5,8 +5,14 @@ import './App.css';
 
 function App() {
   return (
-  <Formrating />
+
+      <Formrating />
+    
     )
 }
 
 export default App;
+
+
+
+
