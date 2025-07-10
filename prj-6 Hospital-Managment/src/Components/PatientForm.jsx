@@ -11,6 +11,7 @@ const initialForm = {
   city: "",
   roomNo: "",
   patientType: "",
+  
 };
 
 const PatientForm = ({ onSubmit, patientToEdit }) => {
