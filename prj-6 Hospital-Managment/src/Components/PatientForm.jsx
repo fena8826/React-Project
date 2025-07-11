@@ -79,18 +79,12 @@ const PatientForm = ({ onSubmit, patientToEdit }) => {
         <option value="Female">Female</option>
       </select>
 
-      <input name="bloodGroup" placeholder="Blood Group" value={form.bloodGroup} onChange={handleChange}
-      />
-      <input name="mobile"placeholder="Mobile No" value={form.mobile}onChange={handleChange}
-      />
-      <input name="email" placeholder="Email Address"value={form.email}onChange={handleChange}
-      />
-      <input name="city"placeholder="City"value={form.city} onChange={handleChange}
-      />
-      <input name="roomNo" placeholder="Room No"value={form.roomNo} onChange={handleChange}
-      />
-      <input  name="patientType"  placeholder="Patient Type (e.g. OPD, IPD)"  value={form.patientType}onChange={handleChange}
-      />
+      <input name="bloodGroup" placeholder="Blood Group" value={form.bloodGroup} onChange={handleChange}/>
+      <input name="mobile"placeholder="Mobile No" value={form.mobile}onChange={handleChange}/>
+      <input name="email" placeholder="Email Address"value={form.email}onChange={handleChange}/>
+      <input name="city"placeholder="City"value={form.city} onChange={handleChange}/>
+      <input name="roomNo" placeholder="Room No"value={form.roomNo} onChange={handleChange}/>
+      <input  name="patientType"  placeholder="Patient Type (e.g. OPD, IPD)"  value={form.patientType}onChange={handleChange} />
 
       <button type="submit">{form.id ? "Update" : "Add"} Patient</button>
     </form>
