@@ -35,7 +35,7 @@ const PatientForm = ({ onSubmit, patientToEdit }) => {
   if (!form.gender) return "Gender is required.";
   if (!form.bloodGroup.trim()) return "Blood Group is required.";
   if (!form.mobile.trim()) return "Mobile No is required.";
-  if (!/^[0-9]{10}$/.test(form.mobile)) return "Mobile No must be 10 digits.";
+  if (!/^[0-9]{10}$/.test(form.mobile)) return "Mobile No must be 10 numbers.";
   if (!form.email.trim()) return "Email is required.";
   if (!form.email.includes("@") || !form.email.includes(".")) {
     return "Email must include '@' and domain.";
